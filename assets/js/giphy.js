@@ -16,7 +16,7 @@ var topics = ["dog", "cat", "rabbit", "hamster", "fish", "horse", "cow", "otter"
 	        for (var i=0; i<topics.length; i++) {
             //class answer
             var a = $("<button>");
-            a.addClass("btn btn-info dogs " + topics[i]);
+            a.addClass("btn btn-danger dogs " + topics[i]);
             a.attr("data-name", topics[i]);
             a.text(topics[i]);
             $("#dog-view").append(a); 
